@@ -76,10 +76,10 @@ class mainMenu {
         default:
           menuSelection = "exit";
       }
-      //Keeps looping until 0 is selected.
+      //Keeps looping until 'exit' is typed in.
       menuSelection = this.displayMainMenuOptions();
     }
-    //If 0 is seledcted the program will exit.
+    //If 'exit' is input the program will exit.
     alert(`Hope you had fun. Goodbye!`);
   }
 
