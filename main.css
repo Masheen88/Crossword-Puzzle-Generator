@@ -1,0 +1,15 @@
+.pageTitle {
+  text-align: center;
+  color: white;
+  background-color: grey;
+}
+
+body {
+  text-align: center;
+  background-color: #303030;
+}
+
+#clickMe {
+  color: white;
+  background-color: blue;
+}

@@ -10,5 +10,12 @@
   </head>
   <body>
     <script src="randomWords.js"></script>
+
+    <input
+      id="clickMe"
+      type="button"
+      value="Generate Words"
+      onclick="getWords(); console.log(`Total # of Words: ${words.length}`); console.log(words)"
+    />
   </body>
 </html>
